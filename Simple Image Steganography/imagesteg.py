@@ -23,6 +23,7 @@ def to_binv2(data, passphrase):
         if passphrase:
             # change each letter of passphrase to ascii
             passphrase = [int(ord(c)) for c in passphrase]
+            passphrase.reverse()
             counter = 0
             passphrase_len = len(passphrase)
             # encode each letter of data using passphrase
@@ -95,6 +96,7 @@ def decode(image_name, passphrase):
     counter = 0
     # change each letter of passphrase to ascii
     passphrase = [int(ord(c)) for c in passphrase]
+    passphrase.reverse()
     decoded_data = ""
     # convert from bits to characters
     for byte in all_bytes:
