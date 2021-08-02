@@ -3,6 +3,8 @@
 HOW TO USE
 ==========
 <br>
+Basic Usage
+===========
 Hiding secret message in photo: imagesteg.py -e raw.png -t "this is secret"
 <br>
 Extracting secret message from photo: imagesteg.py -d raw_encoded.png
