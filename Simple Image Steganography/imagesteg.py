@@ -118,6 +118,9 @@ def decode(image_name, passphrase, bit_index):
 
 if __name__ == "__main__":
 
+    if len(sys.argv)<2 :
+        print("For help: imagesteg.py -h")
+
     bit_index = 7           # 0 - 7, 0 = most significant bit, 7 = least significant bit, default = 7 
     passphrase="default"    # default value of passphrase = default (It's so safe right, LOL)
 
