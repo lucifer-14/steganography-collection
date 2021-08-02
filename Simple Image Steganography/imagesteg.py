@@ -32,8 +32,7 @@ def to_binv2(data, passphrase):
                 counter += 1
                 if counter == passphrase_len:
                     counter = 0
-
-
+                    passphrase.reverse()
 
         return ''.join(format(i, "08b") for i in to_ascii)
 
@@ -112,6 +111,7 @@ def decode(image_name, passphrase):
             counter += 1
             if counter == passphrase_len:
                 counter = 0
+                passphrase.reverse()
         else :
             decoded_data += chr(int(byte, 2))
         if decoded_data[-7:] == "==***==":
