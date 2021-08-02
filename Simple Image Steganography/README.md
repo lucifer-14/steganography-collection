@@ -8,6 +8,7 @@ Hiding secret message in photo: imagesteg.py -e raw.png -t "this is secret"
 Extracting secret message from photo: imagesteg.py -d raw_encoded.png
 <br>
 <br>
+<h3>Advanced Usage</h3>
 Using passphrase and output file are optional.
 <br>
 <br>
