@@ -21,6 +21,8 @@ In default, data is hidden in least significant bit. This can be edited by using
 <br>
 For example hiding in most significant bit: 
 <br>
+<br>
 Hiding secret message in photo: imagesteg.py -e raw.png -t "this is secret" -p "this is pass" -o msbout -b 0
+<br>
 <br>
 Extracting secret message from photo: imagesteg.py -d msbout.png -b 0
