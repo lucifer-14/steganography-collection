@@ -1,0 +1,7 @@
+NAME = Server_Aung
+USERNAME = Aung Aung
+IP = 127.0.0.1
+PORT = 4444
+IS_SERVER = 1
+COVER_PATH = data/images/cover
+STEGO_PATH = data/images/stego

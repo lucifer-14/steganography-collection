@@ -1,0 +1,7 @@
+NAME = Client_Abc
+USERNAME = abc
+IP = 127.0.0.1
+PORT = 4444
+IS_SERVER = 1
+COVER_PATH = asd
+STEGO_PATH = asd

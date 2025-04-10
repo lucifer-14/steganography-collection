@@ -1,0 +1,7 @@
+NAME = Server_Aaaa
+USERNAME = aaaaaa
+IP = aaaa
+PORT = aaaa
+IS_SERVER = 1
+COVER_PATH = aaaa
+STEGO_PATH = aaaa

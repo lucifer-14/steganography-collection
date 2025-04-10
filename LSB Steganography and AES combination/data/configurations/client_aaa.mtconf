@@ -1,0 +1,7 @@
+NAME = Client_Aaa
+USERNAME = aaa
+IP = aaa
+PORT = aaa
+IS_SERVER = 1
+COVER_PATH = aaa
+STEGO_PATH = aaa

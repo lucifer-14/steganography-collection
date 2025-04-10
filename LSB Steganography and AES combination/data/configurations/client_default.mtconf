@@ -1,0 +1,7 @@
+NAME = Client_Default
+USERNAME = MG MG
+IP = 127.0.0.1
+PORT = 4444
+IS_SERVER = 0
+COVER_PATH = data/images/cover
+STEGO_PATH = data/images/stego

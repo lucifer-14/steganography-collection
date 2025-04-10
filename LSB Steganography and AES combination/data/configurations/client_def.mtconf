@@ -1,0 +1,7 @@
+NAME = Client_Def
+USERNAME = def
+IP = defd
+PORT = 4444
+IS_SERVER = 0
+COVER_PATH = def
+STEGO_PATH = def

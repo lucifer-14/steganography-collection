@@ -1,0 +1,7 @@
+NAME = Client_Hgg
+USERNAME = hgg
+IP = hgg
+PORT = 4444
+IS_SERVER = 0
+COVER_PATH = hgg
+STEGO_PATH = hgg
